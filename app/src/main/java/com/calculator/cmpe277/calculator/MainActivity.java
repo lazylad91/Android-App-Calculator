@@ -177,11 +177,26 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 JexlEngine jexl = new JexlBuilder().create();
                 Log.d("befString",String.valueOf(resultText.getText()));
-                JexlExpression func = jexl.createExpression(stringToFloat(String.valueOf(resultText.getText())));
-                JexlContext context = new MapContext();
-                resultText.setText( func.evaluate(context).toString());
-
-                Log.d("result", func.evaluate(context)+"");
+                if(resultText.getText()!=""&&resultText.getText()!=null) {
+                    Log.d("finl1",String.valueOf(resultText.getText()));
+                    try {
+                        JexlExpression func = jexl.createExpression(stringToFloat(String.valueOf(resultText.getText())));
+                        Log.d("finl1","after expression creation");
+                        JexlContext context = new MapContext();
+                        Log.d("finl",func.evaluate(context).toString());
+                        if(func.evaluate(context)!=null) {
+                            resultText.setText(func.evaluate(context).toString());
+                        }
+                        else
+                            resultText.setText("Error");
+                        Log.d("result", func.evaluate(context) + "");
+                    }
+                    catch (  Exception ex){
+                        resultText.setText("Error");
+                    }
+                }
+                else
+                    resultText.setText("Error");
             }
         });
     }
@@ -214,7 +229,10 @@ public class MainActivity extends AppCompatActivity {
             }
             else{
                 Log.d("numb","In else"+k);
+                if(k!="")
                 returnRes = returnRes+Float.parseFloat(k) + c;
+                else
+                returnRes = returnRes + c;
                 k="";
             }
         }
