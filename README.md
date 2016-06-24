@@ -16,16 +16,20 @@ https://github.com/lazylad91/Android-App-Calculator/blob/master/app-debug.apk
 
 ###Screenshots:
 
-Application Icon
+<h2>Application Icon</h2>
+
 <img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppIcon.png" width="300" height="400">
 
-Application Home Screen
+<h2>Application Home Screen</h2>
+
 <img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppMainPage.png" width="300" height="400">
 
-Multiple operation in one Go.
+<h2>Multiple operation in one Go.</h2>
+
 <img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/TestCase3-MultipleOperation.png" width="300" height="400">
 
-Error keyword will show for any illegal expression.
+<h2>Error keyword will show for any illegal expression.</h2>
+
 <img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/ErrorCondition1_Result.png" width="300" height="400">
 
 
