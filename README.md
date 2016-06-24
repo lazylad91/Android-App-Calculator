@@ -1,12 +1,33 @@
 # Android-App-Calculator
-## Some of the features pertaining to android :
 
-Makes use of android development components like the LinearLayout, TextView and Buttons.
-The app is responsive ( works in portrait as well as landscape mode) .
-The app is designed to work even if the device is rotated
-By default, when the screen is rotated the activity is killed and restarted. To make sure no data is lost, I've saved and restored the data using the lifecycle methods like "onSaveInstanceState" and "onRestoreInstanceState"
-The results textview has a vertical scrollbar attached to it . This will help for user to view the results when the expression or the calculation result is too long to be displayed in the provided textview width.
+This is a basic Android Calculator .
 
-## Screenshots
+##Some of the features pertaining to android : 
+1. Makes use of android development components like the **LinearLayout, TextView and Buttons**.
+2. The app is **responsive** ( works in portrait as well as landscape mode) .
+3. The app is designed to work even if the *device is rotated*  
+By default, when the screen is rotated the activity is killed and restarted. 
+4. Apache JEXL is used to evaluate the expression
+5. Put any number of operations and you will get results.
+6. Support Floating Point numbers.
 
-## APK link to download 
+###APK Link
+https://github.com/lazylad91/Android-App-Calculator/blob/master/app-debug.apk
+
+###Screenshots:
+
+![alt text](https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppIcon.png "Application Icon ") 
+
+![alt text](https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppMainPage.png "Application Home Screen") 
+
+![alt text](https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/TestCase3-MultipleOperation.png "Multiple operation in one Go.") 
+
+![alt text](https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/ErrorCondition1_Result.png "Error keyword will show for any illegal expression.") 
+
+####ERROR Handling:
+
+Few corner-cases have been handled like :
+* 1. `(x/0)` returns an "Invalid operation" error to the user.
+* 2. The operator`(+,/,+,-)` buttons are disabled till the user enters atleast one digit.
+* 3. The equals`(=)` button is disabled until the user enters two operands and atleast one single operator.
+* 4. If user performs operations like `(a//b" or "a++b")` then the equals(=) button is disabled. 
