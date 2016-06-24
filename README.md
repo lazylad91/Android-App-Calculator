@@ -1,32 +1,12 @@
 # Android-App-Calculator
-## Synopsis
+## Some of the features pertaining to android :
 
-Its an android basic app for calculator .
+Makes use of android development components like the LinearLayout, TextView and Buttons.
+The app is responsive ( works in portrait as well as landscape mode) .
+The app is designed to work even if the device is rotated
+By default, when the screen is rotated the activity is killed and restarted. To make sure no data is lost, I've saved and restored the data using the lifecycle methods like "onSaveInstanceState" and "onRestoreInstanceState"
+The results textview has a vertical scrollbar attached to it . This will help for user to view the results when the expression or the calculation result is too long to be displayed in the provided textview width.
 
-## Code Example
+## Screenshots
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
-
-## Motivation
-
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
-## Installation
-
-Provide code examples and explanations of how to get the project.
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-
-Describe and show how to run the tests with code examples.
-
-## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
+## APK link to download 
