@@ -17,14 +17,17 @@ https://github.com/lazylad91/Android-App-Calculator/blob/master/app-debug.apk
 ###Screenshots:
 
 Application Icon
-<img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppIcon.png" width="200" height="300">
+<img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppIcon.png" width="300" height="400">
 
-<img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppIcon.png" width="48">
-![alt text](https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppMainPage.png "Application Home Screen") 
+Application Home Screen
+<img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppMainPage.png" width="300" height="400">
 
-![alt text](https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/TestCase3-MultipleOperation.png "Multiple operation in one Go.") 
+Multiple operation in one Go.
+<img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/TestCase3-MultipleOperation.png" width="300" height="400">
 
-![alt text](https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/ErrorCondition1_Result.png "Error keyword will show for any illegal expression.") 
+Error keyword will show for any illegal expression.
+<img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/ErrorCondition1_Result.png" width="300" height="400">
+
 
 ####ERROR Handling:
 
