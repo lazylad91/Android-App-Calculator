@@ -16,8 +16,10 @@ https://github.com/lazylad91/Android-App-Calculator/blob/master/app-debug.apk
 
 ###Screenshots:
 
-![alt text](https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppIcon.png "Application Icon ") 
+Application Icon
+<img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppIcon.png" width="48">
 
+<img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppIcon.png" width="48">
 ![alt text](https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppMainPage.png "Application Home Screen") 
 
 ![alt text](https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/TestCase3-MultipleOperation.png "Multiple operation in one Go.") 
