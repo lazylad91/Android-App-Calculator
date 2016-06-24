@@ -17,7 +17,7 @@ https://github.com/lazylad91/Android-App-Calculator/blob/master/app-debug.apk
 ###Screenshots:
 
 Application Icon
-<img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppIcon.png" width="48">
+<img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppIcon.png" width="200" height="300">
 
 <img src="https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppIcon.png" width="48">
 ![alt text](https://github.com/lazylad91/Android-App-Calculator/blob/master/Screenshots/AppMainPage.png "Application Home Screen") 
